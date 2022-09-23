@@ -256,7 +256,7 @@ p {
 }
 
 .logo {
-  width: 3rem;
+  width: 10rem;
 }
 
 .hero-headline-wrapper {
@@ -477,7 +477,7 @@ p {
 
 
   .logo {
-    width: 5rem;
+    width: 10rem;
   }
 
   .hero {
@@ -489,7 +489,7 @@ p {
   }
 
   .grid {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     grid-gap: 1rem;
   }
 
