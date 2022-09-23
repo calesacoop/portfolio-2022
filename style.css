@@ -71,7 +71,9 @@ html {
   --alabaster: #f2f0e6;
   --floral-white: #fffaf0;
   --background-color: #f5f5f5;
-  --alt-background-color: black;
+  --alt-background-color: linear-gradient(-225deg,
+  #afdff9 0%,
+  #f9d0d9 100%);
   --text-selection-background-color: #555;
   --base-color: 0;
   --color-lightest: hsla(var(--base-color), 1%, 85%, 100%);
@@ -92,7 +94,7 @@ body {
 }
 
 ::selection {
-  background: hotpink;
+  background:  #f9d0d9;
 }
 
 /* Making all images responsive */
@@ -166,9 +168,9 @@ a:active {
 
 .navigation-arrow:active,
 .navigation-arrow:hover {
-  color: #5200FF;
+  color: #031D42;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #5200FF;
+  -webkit-text-stroke-color: #031D42;
 }
 
 .colored-link {
@@ -199,14 +201,17 @@ p {
  ███ ███   ██████  ██   ██ ██   ██     ██      ██   ██  ██████  ███████ 
 
 */
+h1 {color: #031D42}
 
 .work-wrapper {
+  background-color: #afdff9;
   flex: 1;
 }
 
 /* Padding around work grid and project page */
 .portfolio,
 .project-wrapper {
+  
   padding: .25rem
 }
 
@@ -320,24 +325,28 @@ p {
   grid-template-columns: 1fr;
   grid-gap: 3rem;
   min-height: 100vh;
-  background: #f5f5f5;
+  background: #f9d0d9;
   padding: 1rem 1rem;
 }
 
 .footer-item-1,
+h2 {color: #031D42 ;}
 .about-item-1 {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
 
 .footer-item-2,
+h2 { color: #031D42};
 .about-item-2 {
+  color: #031D42;
   grid-column: 1 / 2;
   grid-row: 2 / 3;
 }
 
 .footer-item-3,
 .about-item-3 {
+  color: #031D42 ;
   grid-column: 1 / 2;
   grid-row: 3 / 4;
 }
@@ -358,6 +367,10 @@ p {
                                                                                                
 */
 
+.hero-headerr {
+  background-color: #afdff9
+  }
+
 .project-wrapper {
   display: flex;
   flex-direction: column;
@@ -366,10 +379,12 @@ p {
 }
 
 /* Sidebar */
+
+
 .project-aside {
   width: 100%;
-  color: white;
-  background: orangered;
+  color: #031D42;
+  background: #afdff9;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -403,9 +418,8 @@ p {
 .project-details {
   width: 100%;
   background-image: linear-gradient(-225deg,
-      #ff057c 0%,
-      #8d0b93 50%,
-      #321575 100%);
+  #afdff9 0%,
+  #f9d0d9 100%);
   padding: 1rem;
 }
 
